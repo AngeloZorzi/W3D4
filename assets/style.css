@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(161, 147, 240);
+  margin: 0;
+  font-family: "Montserrat", serif;
+}
+header {
+  text-align: center;
+
+  background-color: rgba(137, 43, 226, 0.509);
+  margin: 3em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-size: 10em;
+  color: lightpink;
+  font-weight: 400;
+}
+
+#button {
+  text-align: center;
+}
+button {
+  font-size: 4em;
+  color: rgb(215, 30, 175);
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: rgb(236, 150, 193);
+  border-radius: 6%;
+  border: solid;
+  border-color: rgba(137, 43, 226, 0.509);
+}
+.cell {
+  display: inline-block;
+  width: 14%;
+  height: 126px;
+  position: relative;
+  border: 1px solid;
+  border-radius: 8px;
+
+  font-size: 5em;
+  text-align: center;
+}
+.cellCol {
+  display: inline-block;
+  width: 14%;
+  height: 126px;
+  position: relative;
+  border: 1px solid;
+  border-radius: 12px;
+  background-color: rgb(128, 79, 225);
+
+  font-size: 5em;
+  text-align: center;
+}
