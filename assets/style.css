@@ -27,9 +27,17 @@ button {
   margin-top: 2em;
   margin-bottom: 2em;
   background-color: rgb(236, 150, 193);
-  border-radius: 6%;
-  border: solid;
-  border-color: rgba(137, 43, 226, 0.509);
+  border-radius: 15px; /* Angoli più arrotondati per un look più moderno */
+  border: solid 3px rgba(137, 43, 226, 0.509);
+  padding: 0.3em 0.6em; /* Migliore gestione dello spazio interno */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Transizione fluida */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Effetto 3D */
+}
+button:hover {
+  background-color: rgb(255, 105, 180); /* Colore più acceso */
+  transform: scale(1.1); /* Leggero ingrandimento */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
 }
 .cell {
   display: inline-block;
@@ -47,10 +55,14 @@ button {
   width: 14%;
   height: 126px;
   position: relative;
-  border: 1px solid;
-  border-radius: 12px;
+  border: 2px solid rgb(255, 255, 255); /* Bordo bianco più visibile */
+  border-radius: 15px; /* Angoli più arrotondati */
   background-color: rgb(128, 79, 225);
-
   font-size: 5em;
   text-align: center;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 0px 15px rgba(128, 79, 225, 0.8); /* Bagliore */
+  transition: all 0.3s ease-in-out;
+  animation: flash 0.5s ease-in-out; /* Effetto di illuminazione quando selezionata */
 }
