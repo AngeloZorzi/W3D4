@@ -14,9 +14,8 @@ cells();
 const generateNumb = function () {
   const random = Math.floor(Math.random() * 90) + 1;
   const selectedNumb = document.getElementsByClassName("cell")[random - 1];
-  if (random > 0) {
-    selectedNumb.classList.add("cellCol");
-  }
+
+  selectedNumb.classList.add("cellCol");
 
   console.log(random);
 };
